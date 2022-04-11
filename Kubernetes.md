@@ -35,12 +35,15 @@ Originally a Google project, much of the Kubernetes team came from the Google Bo
 
 ## Helpful Links
 ### Overview
-
+(https://kubernetes.io/docs/concepts/overview/)
 ### Tutorials
-
+Basic Kubernetes tutorials: https://kubernetes.io/docs/tutorials/kubernetes-basics/ 
+Includes starting a cluster, deploying an app, exploring your app, exposing your app 	publicly, scaling your app, and updating your app. 
 ### Documentation
-
+Minikube: https://cheatsheet.dennyzhang.com/cheatsheet-minikube-a4 
+Kubectl: https://kubernetes.io/docs/reference/kubectl/cheatsheet/ 
 ### Stacks
-
+Run a Testnet Stacks Node: https://docs.stacks.co/understand-stacks/running-testnet-node 
+Mine Testnet Stacks: https://docs.stacks.co/start-mining/testnet 
 ### Additional
-
+Competitor list: https://www.g2.com/categories/container-orchestration 
