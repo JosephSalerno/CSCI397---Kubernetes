@@ -2,7 +2,7 @@
 ## About The Project
 
 
-[![Kubernetes Powerpoint](https://mailwlu-my.sharepoint.com/:p:/g/personal/salernoj22_mail_wlu_edu/EUrAtiXdEjFPuQPV5_qkA7kBhmCV3xcH2zHrNC1X9ql-Hg?e=3pqvTW)
+[Kubernetes Powerpoint](https://mailwlu-my.sharepoint.com/:p:/g/personal/salernoj22_mail_wlu_edu/EUrAtiXdEjFPuQPV5_qkA7kBhmCV3xcH2zHrNC1X9ql-Hg?e=3pqvTW)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
