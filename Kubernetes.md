@@ -35,7 +35,7 @@ Originally a Google project, much of the Kubernetes team came from the Google Bo
 
 ## Helpful Links
 ### Overview
-(https://kubernetes.io/docs/concepts/overview/)
+https://kubernetes.io/docs/concepts/overview/
 ### Tutorials
 Basic Kubernetes tutorials: https://kubernetes.io/docs/tutorials/kubernetes-basics/ 
 Includes starting a cluster, deploying an app, exploring your app, exposing your app 	publicly, scaling your app, and updating your app. 
