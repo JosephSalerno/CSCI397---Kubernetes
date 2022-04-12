@@ -63,7 +63,7 @@ From what we were able to glean from user comments about Kubernetes, these seem 
 
 *Aptible 
 
-Many of the competitors for Kubernetes are actually managed Kubernetes systems. Their goal is to remove much of the complexity around Kubernetes, making it more accessbile to users without having to have an extensive background in the tool's usage. Some of these competitors include RedHat Open Shift, Spotify's Helios, 
+Many of the competitors for Kubernetes are actually managed Kubernetes systems. Their goal is to remove much of the complexity around Kubernetes, making it more accessbile to users without having to have an extensive background in the tool's usage. Some of these competitors include RedHat Open Shift, Spotify's Helios, Amazon ECS, and Aptible.
 
 ## An Applied Use Case: Mining Stacks
 
