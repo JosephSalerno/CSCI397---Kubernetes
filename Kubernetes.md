@@ -83,6 +83,7 @@ Basic Kubernetes tutorials: https://kubernetes.io/docs/tutorials/kubernetes-basi
 
 Includes starting a cluster, deploying an app, exploring your app, exposing your app 	publicly, scaling your app, and updating your app. 
 ### Documentation
+https://kubernetes.io/docs/home/
 Minikube: https://cheatsheet.dennyzhang.com/cheatsheet-minikube-a4 
 
 Kubectl: https://kubernetes.io/docs/reference/kubectl/cheatsheet/ 
