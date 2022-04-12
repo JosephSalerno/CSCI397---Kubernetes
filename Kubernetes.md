@@ -12,6 +12,7 @@ Pods - components of the application workload
 Pods --> Containers --> Nodes --> Cluster
 
 ## Purpose
+https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
 Kubernetes is made to run applications in a distributed fashion to maximize resilience from unexpected events that could otherwise inhibit functionality. 
 
@@ -30,8 +31,10 @@ Automatic bin packing: the user can provide a cluster of nodes to run containeri
 Self-healing: restarts containers that fail, replaces containers, kills containers that don’t respond to health checks, and clients cannot see containers until they are ready for use. 
 
 Secret and configuration management lets you store and manage sensitive information (i.e., passwords, authentication tokens, and SSH keys). Sensitive information can be updated without rebuilding container images and without exposing secrets in your stack configuration. 
-
 ## How it Works
+A Kubernetes cluster of nodes is created and then a containerized app is deployed on that cluster(s), creating a network of virtual machines. This containerized app is likely to be docker but does not have to be. 
+
+This aforementioned cluster is created via the command line with command line tools, such as Minikube and Kubectl, which let the user interact with it on either a local level or a widespread level. 
 
 A Kubernetes cluster of nodes is created and then a containerized app is deployed on that cluster(s), creating a network of virtual machines. This containerized app is likely to be docker but does not have to be. 
 
@@ -52,6 +55,13 @@ Originally a Google project, much of the Kubernetes team came from the Google Bo
 From what we were able to glean from user comments about Kubernetes, these seem to be the biggest selling points and drawbacks. The most complaints were in regard to the complexity of Kubernetes for new users. The tool is certainly not self explanatory and it can be difficult to understand what is happening without a GUI. As Kubernetes runs in the background, many new users have difficulty visualizing what exactly is happening. 
 
 ## Competitors
+*Amazon ECS 
+
+*Helios 
+
+*RedHat Open Shift 
+
+*Aptible 
 
 Many of the competitors for Kubernetes are actually managed Kubernetes systems. Their goal is to remove much of the complexity around Kubernetes, making it more accessbile to users without having to have an extensive background in the tool's usage. Some of these competitors include RedHat Open Shift, Spotify's Helios, 
 
@@ -67,12 +77,18 @@ It was a challenge for us to get a testnet Stacks mining operation fully up and 
 
 ## Helpful Links
 ### Overview
-
+https://kubernetes.io/docs/concepts/overview/
 ### Tutorials
+Basic Kubernetes tutorials: https://kubernetes.io/docs/tutorials/kubernetes-basics/ 
 
+Includes starting a cluster, deploying an app, exploring your app, exposing your app 	publicly, scaling your app, and updating your app. 
 ### Documentation
+Minikube: https://cheatsheet.dennyzhang.com/cheatsheet-minikube-a4 
 
+Kubectl: https://kubernetes.io/docs/reference/kubectl/cheatsheet/ 
 ### Stacks
+Run a Testnet Stacks Node: https://docs.stacks.co/understand-stacks/running-testnet-node 
 
+Mine Testnet Stacks: https://docs.stacks.co/start-mining/testnet 
 ### Additional
-
+Competitor list: https://www.g2.com/categories/container-orchestration 
