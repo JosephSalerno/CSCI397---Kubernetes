@@ -93,7 +93,9 @@ Kubectl: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 Run a Testnet Stacks Node: https://docs.stacks.co/understand-stacks/running-testnet-node 
 
 Mine Testnet Stacks: https://docs.stacks.co/start-mining/testnet 
+
 Proof of Transfer: https://docs.stacks.co/understand-stacks/proof-of-transfer
+
 More on Stacks Mining: https://docs.stacks.co/understand-stacks/mining
 
 ### Additional
