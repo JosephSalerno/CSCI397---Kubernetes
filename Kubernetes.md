@@ -12,7 +12,7 @@ Pods - components of the application workload
 Pods --> Containers --> Nodes --> Cluster
 
 ## Purpose
-https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+(https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
 Kubernetes is made to run applications in a distributed fashion to maximize resilience from unexpected events that could otherwise inhibit functionality. 
 
@@ -67,13 +67,15 @@ Many of the competitors for Kubernetes are actually managed Kubernetes systems. 
 
 ## An Applied Use Case: Mining Stacks
 
-Stacks is a programmable blockchain built on top of Bitcoin, with similar functionality to Ethereum. While Ethereum uses Proof of Stake mining and Bitcoin uses Proof of Work mining, Stacks uses Proof of Transfer. To mine a Stacks block, you essentially spend Bitcoin for the chance to win a block of Stacks tokens. In effect, this mechanism recycles the energy spent by Bitcoin’s proof of work miners. 
+Stacks is a programmable blockchain built on top of Bitcoin, with similar functionality to Ethereum. While Ethereum uses Proof of Stake mining and Bitcoin uses Proof of Work mining, Stacks uses Proof of Transfer. In practice, Proof of Transfer with Stacks essentially involves spending Bitcoin for the chance to win a block of Stacks tokens. In effect, this mechanism recycles the energy spent by Bitcoin’s proof of work miners. 
 
 In order to mine Testnet Stacks, you must run a testnet Stacks node and a testnet bitcoin node. You also need Docker, minikube, kubectl, and Helm. Helm is essentially a package manager for Kubernetes. By using a Helm chart, life becomes a lot simpler because all the configurations for the Kubernetes cluster are already built in. 
 
 ## Our Challenges
 
-It was a challenge for us to get a testnet Stacks mining operation fully up and running. We aren’t 100% sure why it wouldn’t work, but we hypothesize that the Helm chart for mining testnet Stacks has not been fully updated along with testnet Stacks updates. 
+Running nodes on Bitcoin and Stacks definitely requires a technical background. For example, settings in the bitcoin node's configuration file initially seemed like gibberish; however, researching and learning about daemon, setting the data directory path and the rest of the customizable settings was very helpful. We did have issues with Stacks documentation and school computer permissions. Thankfully, Professor Sprenkle was an incredible resource as we navigated this uncharted territory. We were able to get both of the nodes running as they should on Marshall's personal computer.
+
+Finally, it was a challenge for us to get a testnet Stacks mining operation fully up and running. We aren’t 100% sure why it wouldn’t work, but we hypothesize that the Helm chart for mining testnet Stacks has not been fully updated along with testnet Stacks updates.
 
 ## Helpful Links
 ### Overview
@@ -91,5 +93,8 @@ Kubectl: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 Run a Testnet Stacks Node: https://docs.stacks.co/understand-stacks/running-testnet-node 
 
 Mine Testnet Stacks: https://docs.stacks.co/start-mining/testnet 
+Proof of Transfer: https://docs.stacks.co/understand-stacks/proof-of-transfer
+More on Stacks Mining: https://docs.stacks.co/understand-stacks/mining
+
 ### Additional
 Competitor list: https://www.g2.com/categories/container-orchestration 
